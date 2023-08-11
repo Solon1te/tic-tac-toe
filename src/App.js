@@ -1,9 +1,10 @@
 import './App.css';
+import {Box} from './components/box.js'
 
 function App() {
   return (
     <div className="App">
-        Tic Tac Toe
+        <Box/>
     </div>
   );
 }
