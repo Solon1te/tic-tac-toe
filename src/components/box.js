@@ -3,7 +3,7 @@ import './box.css'
 
 const box = () => {
   return (
-    <div>box</div>
+    <button className='box'>X</button>
   )
 }
 
