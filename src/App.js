@@ -1,10 +1,11 @@
 import './App.css';
-import {Box} from './components/box.js'
+import {Board} from './components/Board'
+import {Box} from './components/Box.js'
 
 function App() {
   return (
     <div className="App">
-        <Box/>
+        <Board board ={board} onClick={gameOver ? resetBoard : handleBoxClick}/>
     </div>
   );
 }
