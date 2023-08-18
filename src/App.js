@@ -1,10 +1,9 @@
 import React, {useState} from 'react';
 import './App.css';
 
-import {Board} from './components/Board';
-import {Box} from './components';
-import {ResetButton} from './components'
-import {ScoreBoard} from './components'
+import {Board} from './components/Board.js';
+import {ResetButton} from './components/ResetButton.js';
+import {ScoreBoard} from './components/ScoreBoard.js';
 
 
 function App() {
