@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 
 import {Board} from './components/Board';
-import {Box} from './components/Box.js';
+import {Box} from './components';
 import {ResetButton} from './components'
 import {ScoreBoard} from './components'
 
